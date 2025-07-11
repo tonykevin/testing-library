@@ -9,13 +9,16 @@
     "start": "node lib/app.js",
     "compile": "tsc -b",
     "compile:watch": "tsc -b --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "check-updates": "ncu -u"
   },
   "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
     "npm-check-updates": "^18.0.1",
-    "typescript": "^5.8.3",
-    "@types/bun": "latest"
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
   },
   "private": true
 }
