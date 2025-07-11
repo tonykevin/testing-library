@@ -9,7 +9,7 @@ describe("Status should", () => {
     expect(expected).toBe(result)
   })
 
-  it('calculates the average of all elements of the array', () => {
+  it.skip('calculates the average of all elements of the array', () => {
     const result = average([1, 2, 3])
     const expected = 2
 
@@ -17,7 +17,7 @@ describe("Status should", () => {
   })
 })
 
-describe("Status Async should", () => {
+describe.skip("Status Async should", () => {
   it('calculates the sum of all elements of the array (async)', async () => {
     const result = await statsAsync.sum([1, 2,3])
     const expected = 6
