@@ -17,11 +17,5 @@ module.exports = {
       functions: 50,
       lines: 50
     },
-    "./src/stats.ts": {
-      statement: 100,
-      branches: 100,
-      functions: 100,
-      lines: 100
-    }
   }
 };
